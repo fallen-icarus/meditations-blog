@@ -1,6 +1,23 @@
 # The DeFi Hypothesis
 
-## Introduction/Abstract
+> [!TIP]
+> Here is an AI-generated podcast giving a deep dive on this paper (audio-only).  
+> Reload the page if there is a MIME error.
+
+https://github.com/user-attachments/assets/85188b7e-03d7-431b-bebd-9139ea009e99
+
+## Table of Contents
+- [Abstract/Introduction](#abstractintroduction)
+- [Layering is the only way to scale](#layering-is-the-only-way-to-scale)
+- [Censorship-Resistance as the Foundation and Competitive Advantage](#censorship-resistance-as-the-foundation-and-competitive-advantage)
+- [Layer 1 DeFi as the Blockchain Stabilizer](#layer-1-defi-as-the-blockchain-stabilizer)
+- [Unstoppable Cascading Adoption](#unstoppable-cascading-adoption)
+- [A New Global Reserve Asset](#a-new-global-reserve-asset)
+- [The End of Triffin's Dilemma](#the-end-of-triffins-dilemma)
+- [A Better World](#a-better-world)
+- [Conclusion](#conclusion)
+
+## Abstract/Introduction
 
 This hypothesis is meant to be a guiding compass on how to design blockchains so that they can reach
 their full potential. While this hypothesis is ultimately just a prediction, it is grounded in first
@@ -8,7 +25,7 @@ principles and can be used to judge the soundness of different blockchain design
 Hypothesis itself is simple: 
 
 *The blockchain that gets globally adopted will be one that 1\) built out its DeFi in layers (rather
-than all on-chain) with the foundational DeFi layer prioritizing censorship resistance over
+than all on-chain) with the foundational DeFi layer prioritizing censorship-resistance over
 throughput, and 2\) has the DeFi layer 1 running directly on the blockchain's layer 1, as opposed to
 a sidechain or layer 2\.*
 
@@ -31,15 +48,15 @@ blockchain that can support it all (e.g., Solana, Sui, and Aptos). But according
 Hypothesis, layering is the only viable option. First principle reasoning suggests the fast
 blockchain approach is logically flawed.
 
-The blockchain trilemma posits that no single system can maximize censorship resistance (termed
+The blockchain trilemma posits that no single system can maximize censorship-resistance (termed
 “decentralization”), security, and high-throughput simultaneously \- only two of the three are
-achievable. Security is non-negotiable, leaving systems to choose between censorship resistance and
+achievable. Security is non-negotiable, leaving systems to choose between censorship-resistance and
 throughput. For a decentralized blockchain serving billions, this seems like a Catch-22: prioritize
 resistance, and scalability falters; prioritize throughput, and trust erodes. Proponents of the fast
 blockchain approach point to this Catch-22 when they argue that sacrificing some censorship
 resistance is a necessary evil; there is no other way to scale DeFi to billions of users.
 
-Yet this framing overlooks a critical distinction: the trilemma governs \*individual features\*, not
+Yet this framing overlooks a critical distinction: the trilemma governs *individual features*, not
 entire ecosystems. By isolating features into specialized components, a blockchain can bypass the
 trilemma entirely, achieving both resistance and throughput within a cohesive whole. It is
 effectively synergy: "the whole is more than the sum of its parts".
@@ -47,7 +64,7 @@ effectively synergy: "the whole is more than the sum of its parts".
 Consider a decentralized exchange (DEX) aiming to serve two niches: users demanding censorship
 resistance and those requiring high-throughput. The trilemma suggests this is impossible \- boosting
 throughput sacrifices resistance. Now imagine splitting this DEX into two: DEX A, optimized for
-censorship resistance, and DEX B, tailored for high-throughput. Each DEX faces its own trilemma, but
+censorship-resistance, and DEX B, tailored for high-throughput. Each DEX faces its own trilemma, but
 DEX B's throughput gains no longer compromise DEX A's resistance. Users choose which DEX to use
 based on preference \- resistant trades on DEX A, rapid trades on DEX B \- while the ecosystem as a
 whole satisfies both niches.
@@ -56,7 +73,7 @@ Traditional finance (TradFi) has scaled to billions using the same principle whi
 contradicts the fast blockchain position. TradFi has absolutely no problem centralizing features
 which means the blockchain trilemma doesn't apply to it. Yet even TradFi uses a layered approach.
 
-![tradfi_in_layers](images/tradfi_in_layers.png)
+![tradfi_in_layers](images/tradfi_in_layers.png)  
 **Figure 1:** TradFi Order Books
 
 The above diagram depicts how TradFi stock trading is actually supported. TradFi segregates features
@@ -84,22 +101,22 @@ functions in four layers" ("Broken Money", Chapter 22).
 > [!IMPORTANT]
 > Critics might point to liquidity fragmentation, as seen among Ethereum's general-purpose layer 2s
 > (e.g., Arbitrum and Optimism), which struggle to interoperate. But Ethereum's difficulty to
-> interoperate is actually due to \*how\* Ethereum's layer 2s are designed \- they are all
+> interoperate is actually due to *how* Ethereum's layer 2s are designed \- they are all
 > general-purpose layer 2s. By contrast, specialized components sidestep this issue. For example, a
 > specialized high-throughput layer can connect to a resistant base layer without the
 > interoperability overhead of general-purpose designs.
 
 The fast blockchain approach isn't just going against the grain, it results in a wholly
 uncompetitive blockchain: why choose an application that is inherently more limited than another?
-The layered approach can satisfy the censorship resistant niche and the high-throughput niche, but
+The layered approach can satisfy the censorship-resistant niche and the high-throughput niche, but
 the fast blockchain approach can only satisfy the latter.
 
-## Censorship Resistance as the Foundation and Competitive Advantage
+## Censorship-Resistance as the Foundation and Competitive Advantage
 
 Whenever features are isolated into specialized components, the layering architecture naturally
 emerges because some features are ubiquitously useful. In TradFi, this base feature is almost always
 settlement. But in DeFi, it will be *censorship-resistant* settlement. This censorship-resistant
-settlement will give DeFi a huge competitive advantage of TradFi.
+settlement will give DeFi a huge competitive advantage over TradFi.
 
 Consider the split DEX example again. Between DEX A (censorship-resistant) and DEX B
 (high-throughput), one will naturally emerge as foundational but which one? Since TradFi's
@@ -114,11 +131,11 @@ long-term holders: central banks, pension funds, mutual funds, and high net-wort
 > [!IMPORTANT]
 > If a central bank makes a 20 year investment, it is more concerned with whether it will be able to
 > claim its profit in 20 years than whether its trade goes through within the next 5 seconds. In
-> other words, it prefers censorship resistance.
+> other words, it prefers censorship-resistance.
 
-DEX A, catering to censorship resistance, will attract greater liquidity, making it the natural base
+DEX A, catering to censorship-resistance, will attract greater liquidity, making it the natural base
 layer. DEX B, with smaller but faster trades, can then tap DEX A's surplus liquidity through
-targeted interoperability, creating the layered hierarchy where censorship resistance anchors
+targeted interoperability, creating the layered hierarchy where censorship-resistance anchors
 throughput.
 
 But why does censorship-resistant settlement give DeFi a competitive advantage over TradFi? Consider
@@ -147,7 +164,7 @@ infancy. Over time, as rewards diminish, transaction fees must take over to pay 
 (miners or validators). This shift, illustrated below, ties a blockchain's long-term security to its
 utility:  
 
-![tx_fees_replace_rewards](images/tx_fees_replace_block_rewards.jpg)
+![tx_fees_replace_rewards](images/tx_fees_replace_block_rewards.png)  
 **Figure 2:** Rewards vs Fees
 
 Initially, block rewards dominate producer revenue, but as they taper (e.g., Bitcoin's halving
@@ -185,9 +202,14 @@ Cardano's
 [Leios](https://iohk.io/en/research/library/papers/high-throughput-blockchain-consensus-under-realistic-network-assumptions/)).
 
 > [!IMPORTANT]
-> The TPS of 1,300 is only needed immediately if the DeFi layer 1 was mass-adopted tomorrow\! Since
-> adoption will actually play out over years, if not decades, the decentralized blockchain's
-> throughput can be slowly scaled up to the required TPS.
+> **There is no valid reason for a blockchain's L1 to sacrifice censorship-resistance in favor of
+> 60,000+ TPS.** Even factoring in other TradFi settlement applications (e.g.,
+> [ACH](https://www.nacha.org/content/ach-network-volume-and-value-statistics),
+> [SWIFT](https://www.swift.com/about-us/discover-swift/fin-traffic-figures), etc) shows that most
+> of TradFi's current global settlement demand can be satisfied with only 5,000 TPS! Plus, this TPS
+> is only needed immediately if the DeFi layer 1 was mass-adopted tomorrow. Since adoption will
+> actually play out over years, if not decades, the decentralized blockchain's throughput can be
+> slowly scaled up to the required TPS.
 
 Now compare the demand from the DTCC and FedWire to Ethereum's average daily transaction count of
 [1.2 million](https://etherscan.io/chart/tx) and Bitcoin's average daily transaction count of
@@ -198,7 +220,7 @@ blockchains post-rewards, especially low-cost Proof-of-Stake blockchains.
 
 > [!IMPORTANT]
 > Bitcoin has taken the approach of forcing all DeFi activity into layer 2s because it is cautious
-> of the risks introduced by smart contracts. However, there doesn't seem to be another way to
+> of the risks introduced by L1 smart contracts. However, there doesn't seem to be another way to
 > generate enough transaction volume to cover the blockchain's security. Bitcoin's layer 2 DeFi is
 > still fairly young so it is possible that it just needs a bit more time, but this DeFi Hypothesis
 > predicts it won't be enough \- especially considering the high-costs of Proof-of-Work.
@@ -212,7 +234,7 @@ nations facing hyperinflation or corruption).**
 For example, without trusted institutions to manage credit histories, users will happily adopt the
 trustless credit histories enabled by the DeFi layer 1\. Credit histories are the foundation of
 economic identities, and critical for entrepreneurship and wealth accumulation. Enabled by mobile
-apps or local entrepreneurs building on the DeFi layer 1, these trustless credit histories will gain
+apps and local entrepreneurs building on the DeFi layer 1, these trustless credit histories will gain
 traction among tech-savvy citizens desperate for economic tools beyond unreliable institutions.
 
 Not only is TradFi unable to supply credit histories to these troubled regions, but even if it
@@ -317,7 +339,7 @@ can stop them.
 
 ## The End of Triffin's Dilemma
 
-> [!NOTE]
+> [!WARNING]
 > While the following section is still meant for the layman, it is heavy in economic theory. The
 > premise is: **Triffin’s Dilemma has been plaguing the world, and a decentralized global reserve
 > asset is the first potential cure for it.**
@@ -346,11 +368,11 @@ base.
 > some jobs shift to nations with weaker currencies. But as Nation A produces less, demand for its
 > currency dips, weakening it and luring manufacturing back. Like a pendulum, the system swings
 > toward balance.
-
-But for a global reserve currency, the pendulum breaks. As manufacturing hollows out, demand for the
-currency doesn't fade \- other nations still want the currency for reserves, trade, and stability,
-not just direct business with the issuer. Therefore, the manufacturing rot deepens without
-correction.
+>
+> But for a global reserve currency, the pendulum breaks. As manufacturing hollows out, demand for the
+> currency doesn't fade \- other nations still want the currency for reserves, trade, and stability,
+> not just direct business with the issuer. Therefore, the manufacturing rot deepens without
+> correction.
 
 People tend to blame "corrupt" corporations for this outsourcing of jobs, but the fact of the matter
 is the global system is fundamentally designed to incentivize this outcome. If another nation's
@@ -374,14 +396,14 @@ was in gold, it could take a month or longer for the German to get paid\! In the
 is too large of an inconvenience. That is why the world would rather rely on fiat \- with all of its
 downsides \- than gold. As Lyn Alden writes in Chapter 8 of "Broken Money":
 
-This is the only time in history where, on a global scale, a weaker money won out in terms of
-adoption over a harder money. And it occurred because telecommunication systems introduced *speed*
-as a new variable into competition. Gold ... couldn't compete with ... top fiat currencies with
-their combination of speed and convenience ...
+> *This is the only time in history where, on a global scale, a weaker money won out in terms of
+> adoption over a harder money. And it occurred because telecommunication systems introduced **speed**
+> as a new variable into competition. Gold ... couldn't compete with ... top fiat currencies with
+> their combination of speed and convenience ...*
 
-Decentralized blockchains offer the first modern solution to Triffin's Dilemma because they offer
+**Decentralized blockchains offer the first modern solution to Triffin's Dilemma because they offer
 the possibility for a truly stateless currency that can be settled almost as fast as actual economic
-transactions. Decentralized blockchain currencies are a categorical upgrade over physical gold \-
+transactions.** Decentralized blockchain currencies are a categorical upgrade over physical gold \-
 hence the term "digital gold". Digital gold levels the playing field again between fiat currencies
 and fixed supply assets, which means the world will once again choose the harder asset.
 
@@ -413,7 +435,7 @@ signals.
 *The reserve currency's supply can be a fixed supply as long as the exchange rates between it and
 fiat currencies are allowed to float.* While fixed-supply assets may raise concerns about
 deflationary pressures, floating exchange rates with fiat allow market signals to adjust fiat credit
-availability, mitigating stagnation risks without requiring elastic issuance.
+availability, mitigating stagnation risks without requiring elastic issuance of the reserve asset.
 
 > [!NOTE]
 > Interestingly, the Trump administration is reportedly considering revaluing the U.S. gold stock \-
@@ -423,7 +445,7 @@ availability, mitigating stagnation risks without requiring elastic issuance.
 
 When the idea of a fiat currency pegged to "digital gold" comes up, some skeptics ask: Why would
 governments honor pegs that curb their power? What prevents a “Nixon 2.0” from severing the link
-again? The answer: \*breaking a peg to a decentralized currency isn't feasible\*.
+again? The answer: *breaking a peg to a decentralized currency isn't feasible*.
 
 Just like when the U.S. outlawed private gold ownership in 1933, Nixon was only able to break the
 gold standard in 1971 because of the centralized custody of gold at the time. Nations held U.S.
@@ -469,7 +491,7 @@ All it takes is one blockchain willing to follow the DeFi Hypothesis.
 The DeFi Hypothesis is the full story: if you build a blockchain the right way, mass-adoption will
 necessarily follow due to its overwhelming utility advantages. Things like first-mover advantage and
 government policies may slow the process; but if the DeFi Hypothesis is correct, they cannot stop
-it. And since this hypothesis is supposed to be grounded in \*universal truths\*, it should not be
+it. And since this hypothesis is supposed to be grounded in *universal truths*, it should not be
 possible for any technological disruption to derail any part of it; if one does, the DeFi Hypothesis
 should be considered false.
 
