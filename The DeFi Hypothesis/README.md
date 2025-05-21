@@ -111,6 +111,23 @@ uncompetitive blockchain: why choose an application that is inherently more limi
 The layered approach can satisfy the censorship-resistant niche and the high-throughput niche, but
 the fast blockchain approach can only satisfy the latter.
 
+> [!IMPORTANT]
+> Some might argue that a fast blockchain (e.g., Sui), achieving a 'good enough' threshold of
+> censorship-resistance, could negate the need for extensive layering. However, this overlooks the
+> bottomless demand for ever higher throughput from specialized applications (e.g., high-frequency
+> trading). Such demand would inevitably lead even these fast L1s to develop L2s or sidechains
+> instead of sacrificing even more censorship-resistance. Once these faster, often cheaper,
+> specialized layers exist, economic incentives will even drive some L1 activity towards the new L2s
+> and sidechains. As a result, the base L1 will be left with underutilized throughput capacity.
+>
+> In such a scenario, the fast L1 would face a logical incentive to re-optimize by scaling back its
+> underutilized throughput to regain some censorship-resistance; but doing so might face practical
+> and political challenges. This suggests that an approach focusing on maximizing L1 throughput at
+> the potential expense of peak censorship-resistance suffers from premature optimization.
+> Conversely, a blockchain that starts building in layers immediately and scales its throughput only
+> as needed is more likely to achieve a sustainable and optimal balance, leading to a better
+> product-market fit in the long term.
+
 ## Censorship-Resistance as the Foundation and Competitive Advantage
 
 Whenever features are isolated into specialized components, the layering architecture naturally
