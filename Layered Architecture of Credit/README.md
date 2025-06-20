@@ -4,6 +4,8 @@
 > Here is an AI-generated podcast giving a deep dive on this paper (audio-only).  
 > Reload the page if there is a MIME error.
 
+https://github.com/user-attachments/assets/3c9664a2-0e18-4c95-a797-5fd36d386e68
+
 ## Table of Contents
 
 - [Abstract](#abstract)
