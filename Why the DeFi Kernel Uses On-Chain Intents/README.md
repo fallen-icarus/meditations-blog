@@ -4,6 +4,8 @@
 > Here is an AI-generated podcast giving a deep dive on this paper (audio-only).  
 > Reload the page if there is a MIME error.
 
+https://github.com/user-attachments/assets/8a39febd-ce84-4be4-8765-8fa7dd7dc29e
+
 ## Abstract
 
 The DeFi Kernel is designed based on the layered philosophy described in "The DeFi Hypothesis". As
