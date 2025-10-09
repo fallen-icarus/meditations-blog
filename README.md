@@ -7,6 +7,7 @@ philosophy, economics, political theory, DeFi, etc.
 
 | Date | Article |
 |:--:|:--:|
+| October 9th, 2025 | [The Cardano Paradox](The%20Cardano%20Paradox/README.md) |
 | September 19th, 2025 | [Why the DeFi Kernel Uses On-Chain Intents](Why%20the%20DeFi%20Kernel%20Uses%20On-Chain%20Intents/README.md) |
 | June 20th, 2025 | [Layered Architecture of Credit](Layered%20Architecture%20of%20Credit/README.md) |
 | June 6th, 2025 | [DeFi's Adoption Roadmap](DeFi%20Adoption%20Roadmap/README.md) |
