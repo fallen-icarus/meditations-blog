@@ -98,7 +98,7 @@ the L1. Solana is simply a high-speed Execution Layer (a decentralized Sequencer
 Arweave’s Storage Layer.
 
 Fast chains still have tremendous value, *but only as L2s*. We see this today in traditional
-finance: the Visa and MasterCard networks process billions of high-speed, low-value consumer
+finance: the Visa and Mastercard networks process billions of high-speed, low-value consumer
 payments as a Layer 2, while the final, net settlement of large balances between financial
 institutions occurs on the FedWire system — a slow, secure, and deliberate Layer 1. The TradFi
 industry has already learned that you separate the fast, noisy execution from the slow,
@@ -302,7 +302,7 @@ If you want speed, use a centralized database. If you want truth, use a slow blo
 
 ### Appendix: A Back-of-the-Envelope Calculation of Global Settlement Demand
 
-The ~5,000 TPS figure used in this post is a conservative estimate of the *peak settlement* load
+The ~8,000 TPS figure used in this post is a conservative estimate of the *peak settlement* load
 required to run the core U.S. financial system, which serves as a proxy for global demand. It is not
 an arbitrary number. This calculation is based on publicly available data from the primary
 settlement infrastructures.
