@@ -7,6 +7,7 @@ philosophy, economics, political theory, DeFi, etc.
 
 | Date | Article |
 |:--:|:--:|
+| February 10th, 2026 | [Public Markets, Private Participants](public-markets-private-participants/) |
 | January 14th, 2026 | [Slow Blockchains are Better](slow-blockchains-are-better/) |
 | October 9th, 2025 | [The Cardano Paradox](the-cardano-paradox/) |
 | September 19th, 2025 | [Why the DeFi Kernel Uses On-Chain Intents](why-the-defi-kernel-uses-on-chain-intents/) |
