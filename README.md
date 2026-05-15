@@ -7,6 +7,7 @@ philosophy, economics, political theory, DeFi, etc.
 
 | Date | Article |
 |:--:|:--:|
+| May 15th, 2026 | [Non-Margin DeFi Loans For Dummies](non-margin-defi-loans-for-dummies/) |
 | April 29th, 2026 | [Let's Play AI Chess!](lets-play-ai-chess/) |
 | April 20th, 2026 | [The Trillion Dollar Mistake](the-trillion-dollar-mistake/) |
 | March 10th, 2026 | [The Seed of DeFi](the-seed-of-defi/) |
